@@ -1,6 +1,6 @@
 {
     "name": "chatbox-inc/peridot-lumen-plugin",
-    "description": "A Peridot plugin to simplify testing HttpKernel applications",
+    "description": "A Peridot plugin to simplify testing Lumen applications",
     "license": "MIT",
     "authors": [
         {
