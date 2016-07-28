@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "laravel/lumen-framework": "5.2",
+        "laravel/lumen-framework": "^5.2.*",
         "peridot-php/peridot": "^1.18"
     },
     "autoload": {
