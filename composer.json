@@ -1,0 +1,28 @@
+{
+    "name": "chatbox-inc/peridot-lumen-plugin",
+    "description": "A Peridot plugin to simplify testing HttpKernel applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mikakane",
+            "email": "mikakane2@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/lumen-framework": "5.2",
+        "peridot-php/peridot": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Peridot\\Plugin\\Lumen\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "sample/app/"
+        }
+    }
+}
